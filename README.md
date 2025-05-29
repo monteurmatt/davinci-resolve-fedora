@@ -10,7 +10,6 @@ Este repositório contém um passo a passo para configurar o **DaVinci Resolve**
 
 - Fedora instalado e atualizado  
 - Placa de vídeo AMD compatível  
-- Permissões de superusuário (sudo)
 
 <br>
 
