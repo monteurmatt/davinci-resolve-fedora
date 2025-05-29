@@ -2,6 +2,9 @@
 
 Este repositório contém um passo a passo para configurar o **DaVinci Resolve** no **Fedora Linux** com placas de vídeo **AMD**. Também inclui dois scripts (`Davinci-Pre-Install-Fix-Fedora.sh` e `Davinci-Pos-Install-Fix-Fedora.sh`) que automatizam partes do processo.
 
+<br>
+
+### 👉🏼 Tutorial realizado no Fedora, mas os passos são semelhantes para outras distribuições Linux.
 ---
 
 <br>
