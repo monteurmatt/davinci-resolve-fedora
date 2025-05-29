@@ -57,9 +57,9 @@ chmod +x ./DaVinci_Resolve_<versao>.run
 
 <br>
 
-### 4. Ignore a verificação de pacotes (libz)
+### 4. Ignore a verificação de pacotes (zlib)
 
-Se ocorrer um erro relacionado à biblioteca `libz`, você pode ignorar a checagem de pacotes ao executar o instalador com a variável de ambiente `SKIP_PACKAGE_CHECK=1`:
+Se ocorrer um erro relacionado à biblioteca `zlib`, você pode ignorar a checagem de pacotes ao executar o instalador com a variável de ambiente `SKIP_PACKAGE_CHECK=1`:
 
 ```bash
 SKIP_PACKAGE_CHECK=1 ./DaVinci_Resolve_<versao>.run
@@ -101,7 +101,7 @@ Se ao iniciar o DaVinci Resolve aparecer a mensagem de erro: `Unsupported GPU Pr
 Isso indica que o suporte à GPU AMD ainda não está configurado corretamente. Para resolver, instale o pacote rocm-opencl:  
 
 ```bash
-sudo dnf install rocm-opencl`
+sudo dnf install rocm-opencl
 ```
 
 <br>
