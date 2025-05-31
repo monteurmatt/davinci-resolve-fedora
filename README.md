@@ -1,6 +1,6 @@
-# 🎬 Como Instalar o DaVinci Resolve no Fedora com GPU AMD
+# 🎬 Como Instalar o DaVinci Resolve com GPU AMD
 
-Este repositório contém um passo a passo para configurar o **DaVinci Resolve** no **Fedora Linux** com placas de vídeo **AMD**. Também inclui dois scripts (`Davinci-Pre-Install-Fix-Fedora.sh` e `Davinci-Pos-Install-Fix-Fedora.sh`) que automatizam partes do processo.
+Este repositório contém um passo a passo para configurar o **DaVinci Resolve** com placas de vídeo **AMD**. Também inclui dois scripts (`Davinci-Pre-Install-Fix.sh` e `Davinci-Pos-Install-Fix.sh`) que automatizam partes do processo.
 
 <br>
 
@@ -11,7 +11,7 @@ Este repositório contém um passo a passo para configurar o **DaVinci Resolve**
 
 ## 📦 Pré-requisitos
 
-- Fedora instalado e atualizado  
+- Ambiente Linux instalado e atualizado  
 - Placa de vídeo AMD compatível  
 
 <br>
@@ -24,14 +24,14 @@ Este repositório contém um passo a passo para configurar o **DaVinci Resolve**
 
 ### 1. Instale as bibliotecas necessárias
 
-Execute o script de pré-instalação `Davinci-Pre-Install-Fix-Fedora.sh`:
+Execute o script de pré-instalação `Davinci-Pre-Install-Fix.sh`:
 
 <br>
 
 Modo automático com script .sh:
 ```bash
-chmod +x Davinci-Pre-Install-Fix-Fedora.sh
-./Davinci-Pre-Install-Fix-Fedora.sh
+chmod +x Davinci-Pre-Install-Fix.sh
+./Davinci-Pre-Install-Fix.sh
 ```
 
 <br>
@@ -78,8 +78,8 @@ Após a instalação do DaVinci Resolve, execute o script de pós-instalação p
 
 Modo automático com script .sh:
 ```bash
-chmod +x Davinci-Pos-Install-Fix-Fedora.sh
-./Davinci-Pos-Install-Fix-Fedora.sh
+chmod +x Davinci-Pos-Install-Fix.sh
+./Davinci-Pos-Install-Fix.sh
 ```
 
 <br>
