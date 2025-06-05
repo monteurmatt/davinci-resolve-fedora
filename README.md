@@ -126,7 +126,7 @@ sudo dnf install rocm-hip
 sudo dnf install rocm-runtime
 ```
 
-🦎 Solução OpenSuse:
+🦎 Solução para ROCm no OpenSuse:
 ```bash
 sudo zypper install Mesa-libOpenCL
 ```
