@@ -125,3 +125,8 @@ sudo dnf install rocm-clinfo
 sudo dnf install rocm-hip
 sudo dnf install rocm-runtime
 ```
+
+🦎 Solução OpenSuse:
+```bash
+sudo zypper install Mesa-libOpenCL
+```
