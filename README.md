@@ -128,5 +128,8 @@ sudo dnf install rocm-runtime
 
 🦎 Solução para ROCm no OpenSuse:
 ```bash
-sudo zypper install Mesa-libOpenCL
+sudo zypper addrepo --refresh https://repo.radeon.com/rocm/zyp/zypper/ rocm
+sudo rpm --import https://repo.radeon.com/rocm/rocm.gpg.key
+sudo zypper install rocm-opencl rocminfo clinfo
+sudo usermod -a -G render,video $LOGNAME
 ```
